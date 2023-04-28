@@ -11,7 +11,7 @@ module.exports = {
       },
     ],
   ],
-  base: "/",
+  base: "/xkk-blog/",
   erviceWorker: true,
   themeConfig: {
     sidebarDepth: 1,
