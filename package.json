@@ -1,0 +1,16 @@
+{
+  "name": "xkk-blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "repository": "https://github.com/xiekaixiongmao/xkk-blog.git",
+  "author": "kainiu <kainiu@syounggroup.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
