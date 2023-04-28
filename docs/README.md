@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/hero.png
+heroImage: /img/doudou.png
 actionText: GO →
 actionLink: /articles/
 features:
