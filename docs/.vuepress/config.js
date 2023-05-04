@@ -14,44 +14,40 @@ module.exports = {
   base: "/xkk-blog/",
   erviceWorker: true,
   themeConfig: {
-    sidebarDepth: 1,
+    sidebarDepth: 2,
     lastUpdatedText: "上次更新",
     nav: [
       { text: '主页', link: '/' },
       { text: '前端知识', link: '/articles/' },
       { text: '关于', link: '/about/' },
-      {
-        text: 'Languages',
-        items: [
-          { text: 'Chinese', link: '' },
-          { text: 'Japanese', link: '' }
-        ]
-      }
     ],
     sidebar: {
       "/articles/": [
         {
           title: "JavaScript",
           children: [
-            '/articles/JS/',
           ]
         },
         {
           title: "HTML",
           children: [
-            '/articles/HTML/',
           ]
         },
         {
           title: "CSS",
           children: [
-            '/articles/CSS/'
+          ]
+        },
+        {
+          title: "浏览器",
+          children: [
+            '/articles/Browser/EventLoop/'
           ]
         },
         {
           title: "TypeScript",
           children: [
-            '/articles/TypeScript/',
+            '/articles/TypeScript/Introduction/',
           ]
         },
       ],
