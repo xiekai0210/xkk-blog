@@ -14,7 +14,7 @@ module.exports = {
   base: "/xkk-blog/",
   erviceWorker: true,
   themeConfig: {
-    sidebarDepth: 2,
+    sidebarDepth: 3,
     lastUpdatedText: "上次更新",
     nav: [
       { text: '主页', link: '/' },
@@ -26,6 +26,7 @@ module.exports = {
         {
           title: "JavaScript",
           children: [
+            '/articles/JS/Array/'
           ]
         },
         {

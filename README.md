@@ -1,2 +1,2 @@
 # xkk-blog
->.&lt;1
+> https://xiekaixiongmao.github.io/xkk-blog/
