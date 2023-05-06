@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-42989fe0","path":"/articles/Browser/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"浏览器","slug":"浏览器","link":"#浏览器","children":[]}],"git":{"updatedTime":1683181135000,"contributors":[{"name":"kainiu","email":"kainiu@syounggroup.com","commits":1}]},"filePathRelative":"articles/Browser/README.md"}');export{e as data};

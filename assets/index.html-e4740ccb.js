@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-cbb10636","path":"/articles/CSS/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"CSS","slug":"css","link":"#css","children":[]}],"git":{"updatedTime":1683181135000,"contributors":[{"name":"kainiu","email":"kainiu@syounggroup.com","commits":2}]},"filePathRelative":"articles/CSS/README.md"}');export{e as data};
