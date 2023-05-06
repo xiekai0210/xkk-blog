@@ -1,3 +1,4 @@
+import { defaultTheme } from '@vuepress/theme-default'
 module.exports = {
   title: "凯牛的博客",
   description: "种一棵树最好的时间在十年前，其次是现在。",
@@ -12,11 +13,12 @@ module.exports = {
     ],
   ],
   base: "/xkk-blog/",
-  erviceWorker: true,
-  themeConfig: {
-    sidebarDepth: 3,
-    lastUpdatedText: "上次更新",
-    nav: [
+  theme: defaultTheme({
+    logo: '/img/doudou.png',
+    lastUpdated: true,
+    lastUpdatedText: '最近更新',
+    contributorsText: '贡献者',
+    navbar: [
       { text: '主页', link: '/' },
       { text: '前端知识', link: '/articles/' },
       { text: '关于', link: '/about/' },
@@ -24,34 +26,39 @@ module.exports = {
     sidebar: {
       "/articles/": [
         {
-          title: "JavaScript",
+          text: "JavaScript",
+          link: "/articles/JS/",
           children: [
             '/articles/JS/Array/'
           ]
         },
         {
-          title: "HTML",
+          text: "HTML",
+          link: "/articles/HTML/",
           children: [
           ]
         },
         {
-          title: "CSS",
+          text: "CSS",
+          link: "/articles/CSS/",
           children: [
           ]
         },
         {
-          title: "浏览器",
+          text: "浏览器",
+          link: "/articles/Browser/",
           children: [
             '/articles/Browser/EventLoop/'
           ]
         },
         {
-          title: "TypeScript",
+          text: "TypeScript",
+          link: "/articles/TypeScript/",
           children: [
             '/articles/TypeScript/Introduction/',
           ]
         },
       ],
     }
-  }
+  }),
 }
